@@ -1,0 +1,57 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "放松一下"
+			}
+		},
+		{
+			"path": "pages/chat/index",
+			"style": {
+				"navigationBarTitleText": "穗穗聊"
+			}
+		},
+		{
+			"path": "pages/chat/chatDetail",
+			"style": {
+				"navigationBarTitleText": "穗穗聊"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "稻香听",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"selectedColor": "#eeb174",
+		"color": "#8a8a8a",
+		"list":[{
+			"pagePath": "pages/home/home",
+			"text": "首页",
+			"iconPath": "static/tabbar_icon/home.png",
+			"selectedIconPath": "static/tabbar_icon/home_active.png"
+		},
+		{
+			"pagePath": "pages/chat/index",
+			"text": "穗穗聊",
+			"iconPath": "static/tabbar_icon/chat.png",
+			"selectedIconPath": "static/tabbar_icon/chat_active.png"
+		},
+		{
+			"pagePath": "pages/my/my",
+			"text": "我的",
+			"iconPath": "static/tabbar_icon/my.png",
+			"selectedIconPath": "static/tabbar_icon/my_active.png"
+		}]
+	},
+	"uniIdRouter": {}
+}

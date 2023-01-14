@@ -1,0 +1,1 @@
+<view class="container"><view class="word">笑一个吧，功成名就不是目的</view><view class="choose"><block wx:for="{{part}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><view class="bg-gradual-green padding radius text-center shadow-blur text-cantainer"><view class="text-lg">{{item.title}}</view></view></block></view></view>
