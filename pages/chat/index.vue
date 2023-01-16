@@ -11,6 +11,7 @@
 				 @touchstart="ListTouchStart" @touchmove="ListTouchMove" @touchend="ListTouchEnd" :data-target="'move-box-' + index"
 				 @click="goChat">
 					<view class="cu-avatar round lg"  >
+						<image :src=item.icon style="width: 100%;height: 100%;border-radius: 50%;"></image>
 						<view class="cu-tag badge" v-if="item.messageScreen">{{item.messageCount}}</view>
 					</view>
 					<view class="content">
@@ -32,23 +33,7 @@
 						<view class="bg-red">删除</view>
 					</view>
 				</view>
-				<view class="cu-item grayscale">
-					<view class="cu-avatar radius lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big81007.jpg);"></view>
-					<view class="content">
-						<view><view class="text-cut">伊泽瑞尔</view>
-							<view class="cu-tag round bg-orange sm">断开连接...</view>
-						</view>
-						<view class="text-gray text-sm flex"> <view class="text-cut"> 等我回来一个打十个</view></view>
-					</view>
-					<view class="action">
-						<view class="text-grey text-xs">22:20</view>
-						<view class="cu-tag round bg-red sm">5</view>
-					</view>
-					<view class="move">
-						<view class="bg-grey">置顶</view>
-						<view class="bg-red">删除</view>
-					</view>
-				</view>
+				
 				
 			</view>
 			
@@ -76,6 +61,7 @@
 					},
 					{
 						name:'伊泽瑞尔',
+						icon:'',
 						message:'等我回来一个打十个',
 						messageTime:'22:20',
 						messageCount:'1',

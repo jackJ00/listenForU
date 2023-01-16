@@ -176,21 +176,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 var _default =
 {
   data: function data() {
@@ -210,6 +195,7 @@ var _default =
       },
       {
         name: '伊泽瑞尔',
+        icon: '',
         message: '等我回来一个打十个',
         messageTime: '22:20',
         messageCount: '1',
