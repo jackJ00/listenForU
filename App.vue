@@ -14,7 +14,13 @@
 
 <style lang='scss'>
 	/* 注意要写在第一行，同时给style标签加入lang="scss"属性 */
-	@import "~@/uni_modules/uview-ui/index.scss";
+	@import "uview-ui/index.scss";
+	/* 图标库 */
+	@import "/static/css/iconfont.css";
+	/* 动画库 */
+	@import "/static/css/animate.css";
+	/* 样式库 */
+	@import '/static/css/thinco.scss';
 	/*每个页面公共css */
 	@import "~@/colorUI/main.css";
 	@import "~@/colorUI/icon.css";

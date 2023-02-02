@@ -1,10 +1,9 @@
 {
   "navigationBarTitleText": "我的",
   "usingComponents": {
-    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
-    "u-cell-group": "/uni_modules/uview-ui/components/u-cell-group/u-cell-group",
-    "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell",
-    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
-    "u-switch": "/uni_modules/uview-ui/components/u-switch/u-switch"
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-cell-group": "/node-modules/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell": "/node-modules/uview-ui/components/u-cell/u-cell"
   }
 }

@@ -1,0 +1,1 @@
+.view_container{padding:0 30rpx}.view_container .header{display:flex;margin-top:30rpx;position:relative}.view_container .header .userName{margin-left:50rpx}.view_container .header .userName .name{font-weight:700;font-size:32rpx;padding:8rpx 0}.view_container .header .arrow{position:absolute;right:0rpx;top:30rpx}.view_container .fit-content{margin-top:100rpx}

@@ -10,6 +10,7 @@
 				<view class="cu-item" :class="modalName=='move-box-'+ index?'move-cur':''" v-for="(item,index) in fridensList" :key="index"
 				 @touchstart="ListTouchStart" @touchmove="ListTouchMove" @touchend="ListTouchEnd" :data-target="'move-box-' + index"
 				 @click="goChat">
+					<!-- 头像 -->
 					<view class="cu-avatar round lg"  >
 						<image :src=item.icon style="width: 100%;height: 100%;border-radius: 50%;"></image>
 						<view class="cu-tag badge" v-if="item.messageScreen">{{item.messageCount}}</view>

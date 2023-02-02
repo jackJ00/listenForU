@@ -1,4 +1,9 @@
 {
-  "navigationBarTitleText": "放松一下",
-  "usingComponents": {}
+  "navigationBarTitleText": "树洞广场",
+  "usingComponents": {
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "info-list": "/pages/home/cpns/info-list"
+  }
 }
